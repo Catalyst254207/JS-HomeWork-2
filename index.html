@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// Задание 1
+// Создать переменные num1, num2 которые пользователь вводит с клавиатуры
+// Проверьте, что переменная num1 равна или меньше 1, а переменная num2 больше или равна 3.
+
+// let userNum1 = prompt('Input number №1: ');
+// let userNum2 = prompt('Input number №2: ');
+// (userNum1 <= 1) ? alert ('Number #1 is less than or equal to 1') : alert ('Number #1 is not less than or equal to 1');
+// (userNum2 >= 3) ? alert ('Number #2 is greater than or equal to 3') : alert ('Number #2 is not greater than or equal to 3'); 
+
+// Задание 2
+// Перепишите код к тернарному оператору
+
+// let test = true;
+// if (test === true) {
+// console.log('+++');
+// } else {
+// console.log('---');
+// } 
+
+// let test = true;
+// (test === true) ? console.log('+++') : console.log('---');
+
+// Задание 3
+// В переменной day лежит какое-то число из интервала от 1 до 31. Определите в какую декаду  месяца попадает это число (в первую, вторую или третью).
+
+let userDay = prompt('Enter the day of the month: ');
+(userDay <= 10 && userDay >= 0) ? alert ('The number falls in the first decade') : alert ('The number does not fall into the first decade');
+(userDay <= 20 && userDay >= 11) ? alert ('The number falls in the second decade') : alert ('The number does not fall into the second decade');
+(userDay <= 31 && userDay >= 21) ? alert ('The number falls in the third decade') : alert ('The number does not fall into the third decade');
+    </script>
+</body>
+</html>
